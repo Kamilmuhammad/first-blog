@@ -6,6 +6,7 @@ const nextConfig = {
 module.exports = {
     experimental: {
         // reactRefresh: true,
+        appDir: false,
     },
     images: {
         domains: [

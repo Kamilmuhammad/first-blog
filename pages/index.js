@@ -10,7 +10,8 @@ export default function Home({ posts }) {
     const postNodes = nodes.slice(3);
     const popularNodes = nodes.slice(5, 8).reverse();
     return (
-        <div>
+        
+        <>
             <Head>
                 <title>Headless WP Next Starter</title>
                 <link rel="icon" href="favicon.ico"></link>
@@ -79,7 +80,7 @@ export default function Home({ posts }) {
                     title={"Latest New"}
                 />
             </Layout>
-        </div>
+        </>
     );
 }
 
