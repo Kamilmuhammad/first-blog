@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
     experimental: {
-        reactRefresh: true,
+        // reactRefresh: true,
     },
     images: {
         domains: [
